@@ -18,8 +18,8 @@ static_assert(moveUnits >= 1 && moveUnits <= 127, "moveUnits must be within 1..1
 
 // Timing parameters
 static const uint32_t detectionTimeoutUs = 50000;
-static const int settleAfterResetMs  = 350;
-static const int resetDelayMs        = 250;
+static const int settleAfterResetMs  = 225;
+static const int resetDelayMs        = 125;
 
 // Compute a running average of analog readings
 int readAverage(int count) {
